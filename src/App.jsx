@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './components/navbar/navbar'
+import Navbar from './components/navbar/Navbar'
 import Hero from './components/Hero/Hero'
-import Services from './components/Services/services'
+import Services from './components/Services/Services'
 import Banner from './components/Banner/Banner'
 import AppStore from './components/AppStore/AppStore'
 import Testimonial from './components/Testimonial/Testimonial'
@@ -13,6 +13,7 @@ function App() {
   
 
   return (
+    
     <>
       <Navbar/>
       <Hero/>
